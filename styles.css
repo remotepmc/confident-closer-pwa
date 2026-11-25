@@ -15,3 +15,18 @@
 .hero-quick-links a{display:block;min-width:154px;padding:9px 12px;background:#050505;color:#f0c94f;border:1px solid #f0c94f;border-radius:6px;text-align:center;text-decoration:none;font-size:13px;font-weight:900;line-height:1.25;white-space:nowrap}
 .hero-quick-links a:hover,.hero-quick-links a:focus{background:#f0c94f;color:#050505}
 @media(max-width:760px){.hero-quick-links{position:static;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:0 0 20px}.hero-quick-links a{min-width:0;padding:8px 4px;font-size:10px;white-space:normal}}
+
+
+/* Force readable yellow labels on the three homepage shortcut buttons */
+body .hero .hero-quick-links a,
+body .hero .hero-quick-links a:link,
+body .hero .hero-quick-links a:visited,
+body .hero .hero-quick-links a:hover,
+body .hero .hero-quick-links a:focus,
+body .hero .hero-quick-links a:active {
+  color: #ffdf00 !important;
+  -webkit-text-fill-color: #ffdf00 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  text-shadow: none !important;
+}
